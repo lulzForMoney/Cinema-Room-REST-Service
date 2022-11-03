@@ -1,12 +1,16 @@
 package cinema;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.Objects;
+import java.util.stream.Stream;
 
 public class Seat {
 
     private int row;
     private int column;
     private int price;
+
 
     public Seat() {
     }
@@ -32,6 +36,7 @@ public class Seat {
     public void setPrice() {
         this.price = this.row <= 4 ? 10 : 8;
     }
+
 
     @Override
     public boolean equals(Object o) {

@@ -9,8 +9,6 @@ public class CinemaRoom {
     private int total_columns;
     private List<Seat> available_seats;
 
-    public CinemaRoom() {
-    }
 
     public CinemaRoom(int total_rows, int total_columns) {
         this.total_rows = total_rows;
