@@ -1,4 +1,4 @@
-# Sinema Room REST Service
+# Cinema Room REST Service
 
 A simple implementation of Virtual Cinema Theater. It is based on Spring Boot and built with Intellij IDEA.
 
